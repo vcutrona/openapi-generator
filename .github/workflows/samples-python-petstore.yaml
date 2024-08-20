@@ -1,6 +1,7 @@
 name: "Python Client: Petstore"
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - samples/openapi3/client/petstore/python-aiohttp/**
